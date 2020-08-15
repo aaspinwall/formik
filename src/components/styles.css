@@ -1,0 +1,9 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,900&display=swap");
+  font-family: Mulish;
+}
+
+h1 {
+  text-align: center;
+  margin: 3rem 0 0;
+}
