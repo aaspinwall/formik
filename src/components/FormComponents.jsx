@@ -93,16 +93,9 @@ const MyForm = () => {
         }}
         handleReset={() => console.log("reset")}
       >
-        {({
-          isSubmitting,
-          handleReset,
-          isValid,
-          isValidating,
-          handleChange,
-        }) => (
+        {({ isSubmitting, handleReset, isValid, isValidating }) => (
           <Form>
             <Label htmlFor="name">Name</Label>
-            {/* <Field type="text" name="name"></Field> */}
             <Input
               type="text"
               name="name"

@@ -8,12 +8,8 @@ import "../components/styles.css"
 const Home = () => {
   return (
     <>
-      {/* <Motivation /> */}
-
-      {/* <FormBoilerplate /> */}
       <h1>Easy forms with Formik</h1>
       <FormComponents />
-      {/* <Breakdown /> */}
     </>
   )
 }
